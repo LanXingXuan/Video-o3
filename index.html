@@ -5,30 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Video-o3 </title>
 
-  <link rel="icon" href="./images/Video-o3_Logo.png">
+  <link rel="icon" href="./Homepage/images/Video-o3_Logo.png">
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
-  <link rel="stylesheet" href="./static/css/bulma.min.css">
-  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
-  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="./Homepage/static/css/bulma.min.css">
+  <link rel="stylesheet" href="./Homepage/static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./Homepage/static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./Homepage/static/css/fontawesome.all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="stylesheet" href="./static/css/leaderboard.css">
-  <link rel="stylesheet" href="./static/css/video-player.css">
+  <link rel="stylesheet" href="./Homepage/static/css/index.css">
+  <link rel="stylesheet" href="./Homepage/static/css/leaderboard.css">
+  <link rel="stylesheet" href="./Homepage/static/css/video-player.css">
 
   <!-- <link href="https://unpkg.com/tabulator-tables@5.5.2/dist/css/tabulator_bulma.min.css" rel="stylesheet">
   <script type="text/javascript" src="https://unpkg.com/tabulator-tables@5.5.2/dist/js/tabulator.min.js"></script> -->
-  <script type="text/javascript" src="static/js/sort-table.js" defer></script>
+  <script type="text/javascript" src="Homepage/static/js/sort-table.js" defer></script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="./static/js/fontawesome.all.min.js"></script>
-  <script src="./static/js/bulma-carousel.min.js"></script>
-  <script src="./static/js/bulma-slider.min.js"></script>
-  <script src="./static/js/explorer-index.js"></script>
+  <script defer src="./Homepage/static/js/fontawesome.all.min.js"></script>
+  <script src="./Homepage/static/js/bulma-carousel.min.js"></script>
+  <script src="./Homepage/static/js/bulma-slider.min.js"></script>
+  <script src="./Homepage/static/js/explorer-index.js"></script>
 
-  <script src="./static/js/leaderboard_testmini.js"></script>  
+  <script src="./Homepage/static/js/leaderboard_testmini.js"></script>  
   
   <style>
     .no-sort {
@@ -111,7 +111,7 @@
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title is-bold">
             <span style="position: relative; display: inline-block;">
-              <img src="images/Video-o3_Logo.png" style="position: absolute; right: 100%; top: 50%; transform: translateY(-50%); width: 2.2em; margin-right: 0.4em;" alt="Logo"/>
+              <img src="Homepage/images/Video-o3_Logo.png" style="position: absolute; right: 100%; top: 50%; transform: translateY(-50%); width: 2.2em; margin-right: 0.4em;" alt="Logo"/>
               <span class="Video-o3" style="vertical-align: middle">
                 <span class="rainbow-text">Video-o3</span>: Native Interleaved Clue Seeking for Long Video Multi-Hop Reasoning
               </span>
@@ -284,7 +284,7 @@
           </p>
         </div>
         <div class="content has-text-centered">
-          <img src="images/Figure1.png" alt="Overview of Video-o3" width="100%"/>
+          <img src="Homepage/images/Figure1.png" alt="Overview of Video-o3" width="100%"/>
           <p style="text-align: center; font-style: italic;">Overview of Video-o3. Guided by the user query, the model actively identifies and localizes critical visual clues using native interleaved tool invocation. It autonomously decides whether to continue searching or to conclude the reasoning process.</p>
         </div>
         <div class="content has-text-justified">
@@ -319,7 +319,7 @@
           </p>
         </div>
         <div class="content has-text-centered">
-          <img src="images/Figure3.png" alt="Architectural Overview" width="100%"/>
+          <img src="Homepage/images/Figure3.png" alt="Architectural Overview" width="100%"/>
           <p style="text-align: center; font-style: italic;">Architectural Overview. Video-o3 dynamically executes tool invocations based on previous reasoning to scrutinize specific clue segments. The Vision Encoder uses adaptive flexible sampling, while the LLM Decoder manages the interleaved "Think," "Tool," and "Answer" tokens.</p>
         </div>
         <div class="content has-text-justified">
@@ -354,7 +354,7 @@
           </p>
         </div>
         <div class="content has-text-centered">
-          <img src="images/Figure5.png" alt="The Data Construction Pipeline" width="100%"/>
+          <img src="Homepage/images/Figure5.png" alt="The Data Construction Pipeline" width="100%"/>
           <p style="text-align: center; font-style: italic;">The Data Construction Pipeline. We transform "Video-Question-Answer" triplets into explicit tool exploration trajectories via a four-stage process: Clue Localization, Validity Verification, Trajectory Generation, and Logical Consistency Checks.</p>
         </div>
         <div class="content has-text-justified">
